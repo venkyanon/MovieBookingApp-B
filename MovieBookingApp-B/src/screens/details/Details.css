@@ -1,0 +1,44 @@
+html, body{
+    width:100%;
+    height: 100%;
+    margin: 0;
+  }
+  .back-to-home{
+    margin: 8px 0px 0px 24px;
+    height: 24px;
+    /* background-color: chocolate; */
+  }
+  .main-page{
+    display: flex;
+    width:100%;
+    /* background-color: chartreuse; */
+  }
+  .movie-poster{
+    flex-basis: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    padding: 0 1% 0 1%;
+  }
+  .movie-trailer{
+    flex-basis: 60%;
+    /* background-color: burlywood; */
+    padding: 0 1% 0 1%;
+  }
+  .artist-details{
+    flex-basis: 20%;
+    padding: 0 1% 0 1%;
+    /* background-color: antiquewhite; */
+  }
+  .trailer{
+    display: flex;
+    justify-content: center;
+    /* background-color: chocolate; */
+    align-items: center;
+    margin-top: 16px;
+    width:100%;
+  }
+  .rate-star:hover{
+    color: yellow;
+    cursor: pointer;
+  }

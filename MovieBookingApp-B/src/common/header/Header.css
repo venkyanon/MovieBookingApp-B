@@ -1,0 +1,48 @@
+.header{
+    background : #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #logo-img{
+    background: #ff7f7f;
+    height: 35px;
+    animation: logo-anim 8s linear 0s infinite normal forwards;
+  }
+  @keyframes logo-anim {
+    0%{
+      transform: rotate(0deg);
+    }
+    25%{
+      transform: rotate(90deg);
+    }
+    50%{
+      transform: rotate(180deg);
+    }
+    75%{
+      transform: rotate(270deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* .btn-group{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+  } */
+  
+  .btn:hover{
+    cursor: pointer;
+  }
+  
+  #bookshow-btn{
+    margin-right: 4em;
+  }
+  
+  #alert{
+    position: relative;
+    margin : auto;
+  }
